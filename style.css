@@ -1,0 +1,35 @@
+body {
+    background-color: #02d65a;
+    color: rgb(0, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #a69dfc;
+    color: rgb(0, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
